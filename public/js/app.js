@@ -29,13 +29,11 @@ inlineSvgs($('body'));
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _this = this;
-
 var $ = __webpack_require__(0);
 
 module.exports = function ($context) {
   $context.find('img.c-svg').each(function () {
-    var $img = $(_this);
+    var $img = $(this);
     var src = $img.attr('src');
     var id = $img.attr('id');
     var classes = $img.attr('class');

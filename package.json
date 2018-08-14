@@ -20,12 +20,12 @@
     "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "@benface/tailwindcss-config": "^1.0.1",
+    "@benface/tailwindcss-config": "^1.0.3",
     "glob-all": "^3.1.0",
     "laravel-mix": "^2.1.11",
     "laravel-mix-purgecss": "^2.2.3",
     "postcss-partial-process": "^1.0.0",
     "postcss-prepend-selector": "^0.3.1",
-    "tailwindcss": "^0.6.4"
+    "tailwindcss": "^0.6.5"
   }
 }

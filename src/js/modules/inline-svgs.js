@@ -1,7 +1,7 @@
 const $ = require('jquery');
 
 module.exports = ($context) => {
-  $context.find('img.c-svg').each(() => {
+  $context.find('img.c-svg').each(function () {
     const $img = $(this);
     const src = $img.attr('src');
     const id = $img.attr('id');
