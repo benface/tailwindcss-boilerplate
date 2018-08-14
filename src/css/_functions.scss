@@ -1,0 +1,3 @@
+@function pxToRem($valueInPx) {
+    @return $valueInPx / 16px * 1rem;
+}

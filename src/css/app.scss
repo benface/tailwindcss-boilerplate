@@ -1,0 +1,27 @@
+/*! purgecss start ignore */
+
+// @import "constants";
+@import "functions";
+@import "mixins";
+// @import "animations";
+// @import "fonts";
+
+@tailwind preflight;
+
+@import "~@benface/tailwindcss-config/reset";
+@import "base";
+// @import "overrides";
+
+@tailwind components;
+@import "components/svg";
+@import "components/container";
+
+/*! purgecss end ignore */
+
+/* start postcss-partial-process */
+
+@tailwind utilities;
+@import "utilities";
+@tailwind screens;
+
+/* end postcss-partial-process */

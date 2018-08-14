@@ -1,0 +1,31 @@
+{
+  "name": "@benface/tailwindcss-boilerplate",
+  "version": "1.0.0",
+  "description": "Tailwind CSS boilerplate project",
+  "author": "Benoît Rouleau <benoit.rouleau@icloud.com>",
+  "license": "ISC",
+  "repository": "https://github.com/benface/tailwindcss-boilerplate.git",
+  "bugs": "https://github.com/benface/tailwindcss-boilerplate/issues",
+  "homepage": "https://github.com/benface/tailwindcss-boilerplate",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev-js": "NODE_ENV=development MIX_JS_ONLY=true node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-js": "NODE_ENV=development MIX_JS_ONLY=true node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production-js": "NODE_ENV=production MIX_JS_ONLY=true node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@benface/tailwindcss-config": "^1.0.1",
+    "glob-all": "^3.1.0",
+    "laravel-mix": "^2.1.11",
+    "laravel-mix-purgecss": "^2.2.3",
+    "postcss-partial-process": "^1.0.0",
+    "postcss-prepend-selector": "^0.3.1",
+    "tailwindcss": "^0.6.4"
+  }
+}
