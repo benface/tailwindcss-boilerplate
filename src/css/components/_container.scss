@@ -1,8 +1,0 @@
-$max-width: 1000px;
-$padding-x: 30px;
-
-.c-container {
-    margin: 0 auto;
-    max-width: pxToRem($max-width + $padding-x * 2);
-    padding: 0 pxToRem($padding-x);
-}

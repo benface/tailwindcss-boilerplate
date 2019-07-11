@@ -7,13 +7,11 @@ const path = require('path');
 require('laravel-mix-purgecss');
 
 mix.setPublicPath('public')
-  .js('src/js/app.js', 'public/js/app.js')
-  .extract([
-    'jquery',
-  ], 'public/js/vendor.js');
+  .js('src/js/app.js', 'public/js')
+  .extract();
 
 if (process.env.MIX_JS_ONLY !== 'true') {
-  mix.sass('src/css/app.scss', 'public/css/app.css')
+  mix.sass('src/css/app.scss', 'public/css')
     .options({
       processCssUrls: false,
       postCss: [
@@ -26,15 +24,22 @@ if (process.env.MIX_JS_ONLY !== 'true') {
       ],
     })
     .purgeCss({
-      paths: glob.sync([
-        path.join(__dirname, 'public/**/*.html'),
+      paths: () => glob.sync([
+        path.join(__dirname, 'public/*.html'),
         path.join(__dirname, 'src/js/**/*.js'),
       ]),
       extensions: ['html', 'js', 'vue'],
     });
-  /*
-    .styles([
-      'node_modules/flickity/css/flickity.css',
-    ], 'public/css/vendor.css');
-  */
 }
+
+/*
+mix.styles([
+  'node_modules/flickity/css/flickity.css',
+], 'public/css/vendor.css');
+*/
+
+mix.version([
+  'public/images/**/*',
+  'public/apple-touch-icon.png',
+  'public/favicon.png',
+]);
