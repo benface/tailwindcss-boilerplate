@@ -1,5 +1,5 @@
 module.exports = require('@benface/tailwindcss-config')({
-  // defaultVariants = ['responsive', 'hover', 'group-hover', 'active', 'focus'],
+  // defaultVariants: ['responsive', 'hover', 'group-hover', 'focus', 'group-focus', 'active', 'group-active'],
 
   extendTheme: {
     screens: {
@@ -15,7 +15,7 @@ module.exports = require('@benface/tailwindcss-config')({
     },
 
     fontFamily: {
-      // 'default': ['Roboto', 'sans-serif'],
+      // 'default': [`'Roboto'`, 'sans-serif'],
     },
 
     fontWeight: {
