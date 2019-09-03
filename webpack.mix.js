@@ -1,7 +1,5 @@
 const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
-const partialProcess = require('postcss-partial-process');
-const prependSelector = require('postcss-prepend-selector');
 const glob = require('glob-all');
 const path = require('path');
 require('laravel-mix-purgecss');
@@ -16,11 +14,6 @@ if (process.env.MIX_JS_ONLY !== 'true') {
       processCssUrls: false,
       postCss: [
         tailwindcss('src/css/tailwind.js'),
-        partialProcess({
-          plugins: [
-            prependSelector({ selector: '#a ' }),
-          ],
-        }),
       ],
     })
     .purgeCss({
