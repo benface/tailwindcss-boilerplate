@@ -12,6 +12,9 @@ if (process.env.MIX_JS_ONLY !== 'true') {
   mix.sass('src/css/app.scss', 'public/css')
     .options({
       processCssUrls: false,
+      cssNano: {
+        calc: false,
+      },
       postCss: [
         tailwindcss('src/css/tailwind.js'),
       ],

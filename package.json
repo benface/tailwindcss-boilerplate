@@ -1,12 +1,5 @@
 {
-  "name": "@benface/tailwindcss-boilerplate",
-  "version": "1.0.0",
-  "description": "Tailwind CSS boilerplate project",
-  "author": "Benoît Rouleau <benoit.rouleau@icloud.com>",
-  "license": "ISC",
-  "repository": "https://github.com/benface/tailwindcss-boilerplate.git",
-  "bugs": "https://github.com/benface/tailwindcss-boilerplate/issues",
-  "homepage": "https://github.com/benface/tailwindcss-boilerplate",
+  "private": true,
   "scripts": {
     "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "dev-js": "NODE_ENV=development MIX_JS_ONLY=true node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -20,12 +13,12 @@
     "jquery": "^3.4.1"
   },
   "devDependencies": {
-    "@benface/tailwindcss-config": "^2.0.0-beta.5",
+    "@benface/tailwindcss-config": "^2.0.0",
     "glob-all": "^3.1.0",
-    "laravel-mix": "^4.1.4",
+    "laravel-mix": "^5.0.0",
     "laravel-mix-purgecss": "^4.1.0",
-    "sass": "^1.22.10",
-    "sass-loader": "7.x",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
     "tailwindcss": "^1.1.2",
     "vue-template-compiler": "^2.6.10"
   }
