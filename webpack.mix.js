@@ -21,7 +21,7 @@ if (process.env.MIX_JS_ONLY !== 'true') {
     })
     .purgeCss({
       paths: () => glob.sync([
-        path.join(__dirname, 'public/*.html'),
+        path.join(__dirname, 'public/**/*.html'),
         path.join(__dirname, 'src/js/**/*.js'),
       ]),
       extensions: ['html', 'js', 'vue'],
