@@ -31,16 +31,16 @@ module.exports = require('@benface/tailwindcss-config')({
     },
 
     fontSize: {
-      // 'xs': '12rem',
-      // 'sm': '14rem',
-      // 'default': '16rem',
-      // 'lg': '18rem',
-      // 'xl': '20rem',
-      // '2xl': '24rem',
-      // '3xl': '30rem',
-      // '4xl': '36rem',
-      // '5xl': '48rem',
-      // '6xl': '64rem',
+      // 'xs': '0.12rem',
+      // 'sm': '0.14rem',
+      // 'default': '0.16rem',
+      // 'lg': '0.18rem',
+      // 'xl': '0.20rem',
+      // '2xl': '0.24rem',
+      // '3xl': '0.30rem',
+      // '4xl': '0.36rem',
+      // '5xl': '0.48rem',
+      // '6xl': '0.64rem',
     },
 
     lineHeight: {
@@ -56,23 +56,23 @@ module.exports = require('@benface/tailwindcss-config')({
     },
 
     textShadow: {
-      // 'default': '0 1rem 3rem rgba(0, 0, 0, 0.2)',
+      // 'default': '0 0.01rem 0.03rem rgba(0, 0, 0, 0.2)',
     },
 
     boxShadow: {
-      // 'default': '0 1rem 3rem 0 rgba(0, 0, 0, 0.1), 0 1rem 2rem 0 rgba(0, 0, 0, 0.06)',
-      // 'md': '0 4rem 6rem -1rem rgba(0, 0, 0, 0.1), 0 2rem 4rem -1rem rgba(0, 0, 0, 0.06)',
-      // 'lg': '0 10rem 15rem -3rem rgba(0, 0, 0, 0.1), 0 4rem 6rem -2rem rgba(0, 0, 0, 0.05)',
-      // 'xl': '0 20rem 25rem -5rem rgba(0, 0, 0, 0.1), 0 10rem 10rem -5rem rgba(0, 0, 0, 0.04)',
-      // '2xl': '0 25rem 50rem -12rem rgba(0, 0, 0, 0.25)',
-      // 'inner': 'inset 0 2rem 4rem 0 rgba(0, 0, 0, 0.06)',
-      // 'outline': '0 0 0 3rem rgba(66, 153, 225, 0.5)',
+      // 'default': '0 0.01rem 0.03rem 0 rgba(0, 0, 0, 0.1), 0 0.01rem 0.02rem 0 rgba(0, 0, 0, 0.06)',
+      // 'md': '0 0.04rem 0.06rem -0.01rem rgba(0, 0, 0, 0.1), 0 0.02rem 0.04rem -0.01rem rgba(0, 0, 0, 0.06)',
+      // 'lg': '0 0.10rem 0.15rem -0.03rem rgba(0, 0, 0, 0.1), 0 0.04rem 0.06rem -0.02rem rgba(0, 0, 0, 0.05)',
+      // 'xl': '0 0.20rem 0.25rem -0.05rem rgba(0, 0, 0, 0.1), 0 0.10rem 0.10rem -0.05rem rgba(0, 0, 0, 0.04)',
+      // '2xl': '0 0.25rem 0.50rem -0.12rem rgba(0, 0, 0, 0.25)',
+      // 'inner': 'inset 0 0.02rem 0.04rem 0 rgba(0, 0, 0, 0.06)',
+      // 'outline': '0 0 0 0.03rem rgba(66, 153, 225, 0.5)',
     },
 
     borderRadius: {
-      // 'sm': '2rem',
-      // 'default': '4rem',
-      // 'lg': '8rem',
+      // 'sm': '0.02rem',
+      // 'default': '0.04rem',
+      // 'lg': '0.08rem',
     },
 
     textStyles: theme => ({
@@ -161,11 +161,11 @@ module.exports = require('@benface/tailwindcss-config')({
     fluidContainer: {
       /*
       'default': {
-        maxWidth: '1280rem',
-        padding: '15rem',
+        maxWidth: '12.80rem',
+        padding: '0.15rem',
         responsivePadding: {
-          'xs': '25rem',
-          'md': '40rem',
+          'xs': '0.25rem',
+          'md': '0.40rem',
         },
       },
       */
