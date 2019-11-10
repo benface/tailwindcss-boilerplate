@@ -16,7 +16,7 @@ if (process.env.MIX_JS_ONLY !== 'true') {
         calc: false,
       },
       postCss: [
-        tailwindcss('src/css/tailwind.js'),
+        tailwindcss,
       ],
     })
     .purgeCss({
