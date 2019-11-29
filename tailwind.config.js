@@ -22,7 +22,7 @@ module.exports = require('@benface/tailwindcss-config')({
       // 'hairline': '100',
       // 'thin': '200',
       // 'light': '300',
-      // 'normal': '400',
+      // 'regular': '400',
       // 'medium': '500',
       // 'semibold': '600',
       // 'bold': '700',
@@ -115,7 +115,7 @@ module.exports = require('@benface/tailwindcss-config')({
         },
       },
       richText: {
-        fontWeight: theme('fontWeight.normal'),
+        fontWeight: theme('fontWeight.regular'),
         fontSize: theme('fontSize.default'),
         lineHeight: theme('lineHeight.default'),
         '> * + *': {

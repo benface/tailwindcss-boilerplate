@@ -13,13 +13,13 @@
     "jquery": "^3.4.1"
   },
   "devDependencies": {
-    "@benface/tailwindcss-config": "^2.0.1",
+    "@benface/tailwindcss-config": "^2.2.1",
     "glob-all": "^3.1.0",
     "laravel-mix": "^5.0.0",
     "laravel-mix-purgecss": "^4.2.0",
-    "sass": "^1.23.3",
+    "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
-    "tailwindcss": "^1.1.3",
+    "tailwindcss": "^1.1.4",
     "vue-template-compiler": "^2.6.10"
   }
 }
