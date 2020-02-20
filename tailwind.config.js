@@ -60,6 +60,8 @@ module.exports = require('@benface/tailwindcss-config')({
     },
 
     boxShadow: {
+      // 'xs': '0 0 0 0.01rem rgba(0, 0, 0, 0.05)',
+      // 'sm': '0 0.01rem 0.02rem 0 rgba(0, 0, 0, 0.05)',
       // 'default': '0 0.01rem 0.03rem 0 rgba(0, 0, 0, 0.1), 0 0.01rem 0.02rem 0 rgba(0, 0, 0, 0.06)',
       // 'md': '0 0.04rem 0.06rem -0.01rem rgba(0, 0, 0, 0.1), 0 0.02rem 0.04rem -0.01rem rgba(0, 0, 0, 0.06)',
       // 'lg': '0 0.10rem 0.15rem -0.03rem rgba(0, 0, 0, 0.1), 0 0.04rem 0.06rem -0.02rem rgba(0, 0, 0, 0.05)',
@@ -72,6 +74,7 @@ module.exports = require('@benface/tailwindcss-config')({
     borderRadius: {
       // 'sm': '0.02rem',
       // 'default': '0.04rem',
+      // 'md': '0.06rem',
       // 'lg': '0.08rem',
     },
 
@@ -171,5 +174,9 @@ module.exports = require('@benface/tailwindcss-config')({
       */
     },
 
+  },
+
+  extendVariants: {
+    // textColor: ['focus-within', 'group-focus-within'],
   },
 });
