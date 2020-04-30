@@ -10,7 +10,7 @@
     "production-js": "NODE_ENV=production MIX_JS_ONLY=true node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "@benface/tailwindcss-config": "^3.0.0",
