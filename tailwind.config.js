@@ -165,15 +165,14 @@ module.exports = require('@benface/tailwindcss-config')({
       /*
       'default': {
         maxWidth: '12.80rem',
-        padding: '0.15rem',
-        responsivePadding: {
+        padding: {
+          'default': '0.15rem',
           'xs': '0.25rem',
           'md': '0.40rem',
         },
       },
       */
     },
-
   },
 
   extendVariants: {
